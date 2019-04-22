@@ -18,10 +18,13 @@
 }
 
 .container{
+    position: absolute;
     bottom:0;
-    margin: auto;
+    left: 0;
+    right:0;
     font-size: 12px;
     font-weight: 300;
     display: flex;
+    justify-content: center;
     flex-direction: row;
 }

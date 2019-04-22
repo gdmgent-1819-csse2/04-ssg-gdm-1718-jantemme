@@ -29,6 +29,7 @@ const Layout = ({ children }) => (
         <Header/>
         <div
           style={{
+            position: 'relative',
             margin: `0 auto`,
             maxWidth: 960,
             padding: `0px 1.0875rem 1.45rem`,
@@ -36,11 +37,7 @@ const Layout = ({ children }) => (
             height: '100%'
           }}
         >
-          <main>{children}</main>
-          <div style={{
-            position: `absolute`,
-            bottom: 0,
-          }}/>
+          <main style={{marginBottom: '40px'}}>{children}</main>
           <Footer/>
         </div>
       </>
