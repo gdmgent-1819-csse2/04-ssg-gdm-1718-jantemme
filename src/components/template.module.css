@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+.heading {
+    font-size: 36px;
+    padding-bottom: 2px;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}

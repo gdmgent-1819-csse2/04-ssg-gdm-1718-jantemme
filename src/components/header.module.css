@@ -2,28 +2,30 @@
 
 .link {
     padding: 10px;
-    color: grey;
+    color: white;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
 
 .link:hover {
-    color: black;
+    color: grey;
 }
 
 .link:target {
-    color: black;
+    color: white;
     border-color: black;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
 }
 
 .logo {
+    color: white;
     margin: 0px 60px 0px 0px;
 }
 
 .container{
-    border-color: lightgrey;
+    background-color: #0F0F0F;
+    border-color: #0F0F0F;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
     display: flex;
