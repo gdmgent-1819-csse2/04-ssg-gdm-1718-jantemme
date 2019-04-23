@@ -5,10 +5,12 @@
     color: white;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
+    -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
 }
 
 .link:hover {
-    color: grey;
+    color: #2BFF7B;
 }
 
 .link:target {
@@ -21,6 +23,12 @@
 .logo {
     color: white;
     margin: 0px 60px 0px 0px;
+    -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.5s;
+}
+
+.logo:hover {
+    color: #2BFF7B;
 }
 
 .container{

@@ -5,3 +5,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+p {
+    padding: 4px;
+    -webkit-transition: background-color 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 0.5s;
+}
+
+p:hover {
+    background-color: #2BFF7B;
+}
+
