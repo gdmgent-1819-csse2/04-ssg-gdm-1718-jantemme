@@ -7,9 +7,8 @@ export default () => (
     <div className={headerStyles.container}>
       <h1 className={headerStyles.logo}>WebGl2</h1>
       <Link className={headerStyles.link} to="/">Home</Link>
-      <Link className={headerStyles.link} to="/page1">Goal</Link>
+      <Link className={headerStyles.link} to="/goal">Goal</Link>
       <Link className={headerStyles.link} to="/page2"> How </Link>
-      <Link className={headerStyles.link} to="/page1"> Code </Link>
     </div>
   </header>
 )

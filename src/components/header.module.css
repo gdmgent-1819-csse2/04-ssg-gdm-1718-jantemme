@@ -32,6 +32,11 @@
 }
 
 .container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: +1;
     background-color: #0F0F0F;
     border-color: #0F0F0F;
     border-style: solid;
